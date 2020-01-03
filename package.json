@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode produciton",
+    "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development"
   },
   "repository": "https://github.com/Pjeferson/bootcamp-desafio04.git",

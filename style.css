@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Helvetica, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header#main-header {
+  background: #4a90e2;
+  height: 64px;
+}
+
+header#main-header .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-profile {
+  color: #fff;
+  font-weight: bold;
+}
+
+section#main-section ul.posts {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#main-section ul.posts li.post-item {
+  width: 700px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.133);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+section#main-section ul.posts li.post-item .user-infos {
+  display: flex;
+}
+
+section#main-section ul.posts li.post-item .user-infos .post-infos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+section#main-section ul.posts li.post-item .user-infos .post-infos strong {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+section#main-section ul.posts li.post-item .user-infos .post-infos span {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+section#main-section ul.posts li.post-item .user-infos img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+section#main-section ul.posts li.post-item p.post-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #3e3e3e;
+}
+
+section#main-section ul.posts li.post-item .line {
+  margin-top: 20px;
+  background: #eeeeee;
+  height: 1px;
+}
+
+section#main-section ul.posts li.post-item ul.comments {
+  margin-top: 20px;
+  list-style: none;
+}
+
+section#main-section ul.posts li.post-item ul.comments li {
+  display: flex;
+  margin-top: 20px;
+}
+
+section#main-section ul.posts li.post-item ul.comments li :first-child {
+  margin: 0px;
+}
+
+section#main-section ul.posts li.post-item ul.comments li img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+section#main-section ul.posts li.post-item ul.comments li .comment {
+  flex: 1 0;
+  margin-left: 10px;
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+section#main-section ul.posts li.post-item ul.comments li .comment p {
+  font-size: 13px;
+  color: #3e3e3e;
+}

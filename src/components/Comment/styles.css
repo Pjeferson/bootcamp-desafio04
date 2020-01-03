@@ -1,0 +1,31 @@
+li.comment-item {
+  display: flex;
+  margin-top: 20px;
+}
+
+li.comment-item :first-child {
+  margin: 0px;
+}
+
+li.comment-item img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+li.comment-item .comment-body {
+  flex: 1 0;
+  margin-left: 10px;
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+li.comment-item .comment-body p {
+  font-size: 13px;
+  color: #3e3e3e;
+}
+
+li.comment-item .comment-body p strong {
+  margin-right: 5px;
+}
